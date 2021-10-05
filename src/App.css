@@ -1,0 +1,50 @@
+.App {
+  /* text-align: center; */
+  /* background-color:#F1F2F2; */
+  background: #4187f6
+}
+
+.components {
+  margin-top: 10px;
+  margin-left: 350px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color:white;
+  border-radius: 4px;
+  display: flex;
+  width: 48%;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.email{
+  color: gray;
+  font-size: 14px;
+}
+
+.ques {
+  color: black;
+}
+.ques:hover{
+  background-color:whitesmoke;
+  cursor: pointer;
+}
+
+.ans {
+  padding-left: 4px;
+}
+.ans:hover{
+  background-color:whitesmoke;
+}
+
+.avatar {
+  margin-top: 10px;
+}
+.a {
+  margin-left: 50px;
+  margin-top: -100px;
+}
+
+.b {
+  margin-left: 50px;
+  margin-top: -65px;
+}
