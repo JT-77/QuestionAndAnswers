@@ -17,7 +17,11 @@ class FetchMonkApi extends Component {
   }
 
   fetchTest = () => {
-    fetch("https://recruitingmonk-v2.azurewebsites.net/qna")
+    fetch("https://recruitingmonk-v2.azurewebsites.net/qna", {
+    crossDomain:true,
+    method: 'POST',
+    headers: {'Content-Type':'application/json'}
+  })
       .then((results) => results.json())
       // console.log(res.data[0].question)
 
